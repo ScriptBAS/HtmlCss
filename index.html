@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт-резюме студента школы Result">
+    <meta name="keywords" content="резюме, resume, Result">
+    <link rel="stylesheet" href="style.css">
+    <title>Сайт-резюме</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <img src="imgs/avatar.jpg" class="avatar" >
+        <div class="about">
+            <h1>Rustam</h1>
+            <h2>Обо мне:</h2>
+            <p>Мое <em>образование никак не связано с программированием</em>, но интерес к данной тематике у меня был еще со школы.</p>
+            <p>Хочу изучить языки программирования для реализаций своих идей. Начать я решил с прохождения курса по <strong>HTML&CSS</strong> в школе <strong><em>Result</em></strong></p> 
+        </div>
+    </div>
+
+    <div class="links card">
+        <h2>Мои соцсети</h2>
+        <p><a href="https://t.me/+4Uz7dTEhnKllYWYy">Telegram</a> Остальные (кроме <a href="https://vk.com">VK</a>) в России упоминать уже нельзя</p>
+    </div>
+
+    <div class="card">
+        <h2 >Мои Хобби</h2>
+        <ul class="list">
+            <li>Книги (читать, а не писать)</li>
+            <li>Спорт (смотреть, а не заниматься)</li>
+            <li>Музыка (слушать, а не сочинять)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2 >Опыт работы:</h2>
+            <table class="table">
+            <thead>
+                <tr>
+                    <th>Организация</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>УЭР</td> 
+                    <td>Инженер</td>
+                    <td>2015-2018</td>   
+                </tr>
+                <tr>
+                    <td>НИИПГ</td>   
+                    <td>Инженер</td>
+                    <td>2018-н.в.</td> 
+                </tr>
+            </tbody>
+            </table>
+    </div>
+
+    <div class="card">
+        <h2>Связаться со мной</h2>
+        <form>
+            <div class="connect">
+                <label for="name">Ваше имя:</label>
+                <br>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div class="connect">
+                <label for="email">Ваш email:</label>
+                <br>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+            <div class="message">
+                <label for="message">Сообщение:</label>
+                    <br>
+                <textarea id="message" placeholder="Введите тескт сообщения" rows="6" cols="42"></textarea>
+            </div>
+        <button action="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

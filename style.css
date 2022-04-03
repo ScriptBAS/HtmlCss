@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: rgb(49, 48, 48);
+    background: #dd7132;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about {
+    font-size: 14px;
+    word-spacing: 2px;
+    display: inline-block;
+    margin-left: 30px;
+    width: 75%;
+}
+
+.links {
+    font-style: italic;
+}
+
+.card {
+background: rgb(187, 178, 178);
+border: 1px solid #7136e0 ;
+border-radius: 5px;
+margin-bottom: 10px;
+padding: 10px 20px;
+}
+
+.avatar {
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    vertical-align:auto;
+}
+
+a {
+    color: rgb(14, 11, 196);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgba(114, 38, 124, 0.25);
+}
+
+a:hover{
+    color: darkred;
+    font-weight: 600;
+}
+
+a:active{
+    color: darkgreen;
+}
+.btn{
+    margin: auto;
+    display: block;
+    padding: 15px 10px;
+    background: #d6580f;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn:hover{
+    background: #7136e0;
+    cursor: pointer;
+}
+
+.btn:active{
+    background: #050;
+    cursor: pointer;
+    color:darkorange;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li{
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.list li:nth-child(2){
+    color: darkmagenta;
+}
+
+.list li:nth-child(odd){
+    color: darkslateblue;
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+}
+
+ .table th{
+    background: #edf5f1;
+    color:#333131;
+}
+
+.table th, .table td {
+    padding: 5px;
+}
+
+.table tbody tr:nth-child(1){
+    background: #666462;
+    color: #edf5ef;
+}
+
+.table tbody tr:last-child {
+
+    background: lightslategray;
+    color: darkslategrey;
+}
+
+.table tr:hover{
+    background: #7136e0;
+    color: yellowgreen;
+}
+
+.connect{
+    display: inline-block;
+    margin: auto;
+    border-bottom: 1px solid #727272;
+    box-sizing: border-box;
+    width: 48%;
+    }
+
+label{
+        font-size: 14px;
+    }
+
+ .connect input{
+     border: 0;
+     background: inherit;
+     outline: none;
+     font-weight: bold;
+     font-size: 16px;
+ }
+
+ .message{
+     margin-top: 15px;
+ }
+
+ .message textarea{
+    border: 0;
+    background: inherit;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media (max-width: 650px) {
+.avatar{
+    margin: auto;
+    display: block;
+}
+.card{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.connect{
+    display: block;
+    margin: auto;
+    border-bottom: 1px solid #727272;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+    }
+
+    .about {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+}
